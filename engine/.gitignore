@@ -1,0 +1,13 @@
+# Secrets - NEVER commit the real bot config (holds the dedicated GHL token)
+ghl_bot_config.json
+
+# Runtime / PHI-adjacent - conversation state, logs, test output
+KILL_SWITCH
+*.state
+*.log
+smoke_log.txt
+logs/
+
+# Python
+__pycache__/
+*.pyc

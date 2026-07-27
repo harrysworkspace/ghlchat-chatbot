@@ -1,0 +1,14 @@
+# Allowlist .gitignore — block everything, permit known-safe code/docs.
+# Order matters: re-denies come AFTER the allows (later rules win).
+# Verify with: git add --all --dry-run   (trust the dry run, not the pattern)
+*
+!*/
+!.gitignore
+!.gitattributes
+!*.md
+!*.py
+!*.bat
+!*.example.json
+!engine/requirements.txt
+# --- re-denies (keep AFTER the allows) ---
+__pycache__/

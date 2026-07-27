@@ -1,0 +1,23 @@
+{
+  "_comment": "Copy to ghl_bot_config.json (gitignored) and fill in. Ships FAIL-CLOSED: allow_real_sends is false and only a dummy contact is allowlisted, so the bot cannot message a real person until you deliberately change both. Do NOT commit the real file - it holds the dedicated bot token.",
+
+  "ghl_base": "https://services.leadconnectorhq.com",
+  "ghl_version": "2021-07-28",
+  "ghl_api_token": "PASTE-DEDICATED-BOT-PIT-HERE (separate from the marketing pull token)",
+  "location_id": "uEanpHM7WXjNsXmCuRS5",
+
+  "calendar_id": "TBD-from-Augustine (open item B1)",
+  "pipeline_id": "iqPVQQEk3uCMGZxUmVTy",
+  "stage_ids": { "engaged": "TBD", "scheduled": "TBD" },
+
+  "timezone": "America/Los_Angeles",
+  "quiet_hours": { "start": 21, "end": 8 },
+  "rate_limit": { "max_per_10s": 20, "daily_max": 5000 },
+
+  "messaging_allowlist": ["PUT-DUMMY-TEST-CONTACT-ID-HERE"],
+  "allow_real_sends": false,
+
+  "kill_switch_file": "KILL_SWITCH",
+  "debounce_seconds": 2,
+  "dedupe_ttl_seconds": 3600
+}

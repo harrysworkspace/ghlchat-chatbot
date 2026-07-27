@@ -1,0 +1,11 @@
+# Chatbot engine - Python deps for the Worker venv.
+# The shared venv already has boto3. Install the rest into it (or a dedicated bot venv) with:
+#   & "Z:\Administration\cowork\tools\refagent-venv\Scripts\python.exe" -m pip install -r requirements.txt
+
+boto3            # AWS Bedrock (the brain) - already present in the shared venv
+requests         # GHL REST calls (ghl_client.py)
+tzdata           # gives zoneinfo real timezone data on Windows (quiet-hours logic)
+
+# Deferred until the hosting decision (Augustine A3): a web framework for the inbound receiver
+# (e.g. flask or fastapi+uvicorn) if we host on-prem, or nothing extra if we use an AWS Lambda
+# front door. Not needed for the offline test suite.
