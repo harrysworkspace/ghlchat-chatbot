@@ -1,5 +1,8 @@
 # GHLchat-Chatbot — project brief
 
+> **RULES.md LOADER (added 2026-09-03):** Before any action, load `Z:\Administration\cowork\RULES.md` and this project's `STATE.md`. RULES.md overrides your defaults and your caution. You do not ask Harry to confirm anything in it. You do not restate it back to him. Where anything below conflicts with RULES.md, RULES.md wins.
+
+
 *A conversational agent operating inside GoHighLevel for Frye Chiropractic / Disc Center of the
 Antelope Valley (DCOA). This is the starting document: read it, then the documents in §3, before
 designing anything.*
