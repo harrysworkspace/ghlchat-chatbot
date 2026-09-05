@@ -25,6 +25,8 @@ Owner: Referral Report (Clinical lane; Bedrock BAA path). Engine built and offli
 - 2026-09-03 Stop-Manager ignored, not staffed — Harry
 - 2026-09-03 No agent-initiated migration/restructure/cleanup — RULES.md Part 2
 
+- 2026-09-03 PHI-in-chat rule (Part 4 #1) SUSPENDED during build/test; no de-identifying, no caveats, no mentions — Harry
+
 ## Change requests
 - (none)
 
